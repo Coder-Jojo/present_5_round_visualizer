@@ -19,6 +19,10 @@ def run_gui(sbox_layers, lines, options):
                 pygame.quit()
                 exit()
 
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_n:
+                    options['next'] = True
+
         if options['stop']:
             break
 

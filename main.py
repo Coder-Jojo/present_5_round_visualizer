@@ -16,6 +16,7 @@ sbox_layers = [sbox_layer1, sbox_layer2, sbox_layer3, sbox_layer4, sbox_layer5]
 
 options = {
     'stop': False,
+    'next': False
 }
 
 if __name__ == '__main__':
