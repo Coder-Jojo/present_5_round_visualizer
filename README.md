@@ -29,3 +29,4 @@ The configuration file is located in `config.json`. The following options are av
 The following controls are available:
 - `n` - draw next line
 
+! [visualizer] (preview.png “Tutorials Point logo”)
