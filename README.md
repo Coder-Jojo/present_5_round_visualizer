@@ -14,7 +14,7 @@ python3 main.py
 ```
 
 ## Configuration
-The configuration file is located in `config.json`. The following options are available:
+The configuration file is located in `options.json`. The following options are available:
 ```json
 {
     "stop": false, // NOT TO BE SET BY USER
