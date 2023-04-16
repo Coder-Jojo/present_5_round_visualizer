@@ -29,4 +29,7 @@ The configuration file is located in `options.json`. The following options are a
 The following controls are available:
 - `n` - draw next line
 
-! [visualizer] (preview.png “Tutorials Point logo”)
+## Sample Image
+![visualizer](https://github.com/Coder-Jojo/present_5_round_visualizer/blob/main/preview.png)
+
+
