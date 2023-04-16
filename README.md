@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ## Usage
 To start the visualizer, run the following command in a terminal:
 ```bash
-python main.py
+python3 main.py
 ```
 
 ## Configuration
@@ -25,4 +25,7 @@ The configuration file is located in `config.json`. The following options are av
 }
 ```
 
+## Controls
+The following controls are available:
+- `n` - draw next line
 
