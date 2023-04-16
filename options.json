@@ -1,0 +1,7 @@
+{
+    "stop": false,
+    "next": false,
+    "useSbox": true,
+    "round": 1,
+    "sbox": 3
+}

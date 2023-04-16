@@ -1,8 +1,6 @@
 from time import sleep 
 import random 
-from pprint import pprint
 from collections import defaultdict 
-from math import log2 
 
 player = [0, 16, 32, 48, 1, 17, 33, 49, 2, 18, 34, 50, 3, 19, 35, 51, 4, 20, 36, 52, 5, 21, 37, 53, 6, 22, 38, 54, 7, 23, 39, 55, 8, 24, 40, 56, 9, 25, 41, 57, 10, 26, 42, 58, 11, 27, 43, 59, 12, 28, 44, 60, 13, 29, 45, 61, 14, 30, 46, 62, 15, 31, 47, 63]
 
@@ -86,7 +84,7 @@ def create_path(round, sn, input_bits):
     
     sbox_state = [[0, 0] for i in range(16)]
     sbox_state[org_sn] = [start_in, start_out]
-    print(sbox_state)
+    # print(sbox_state)
 
     for r in range(round, 0, -1):
         new_sbox_state = [[0, 0] for i in range(16)]
